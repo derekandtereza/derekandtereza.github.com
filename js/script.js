@@ -1,7 +1,10 @@
 /* Author: Derek Thurn */
 
 $(document).ready(function() {
-  // var scrollorama = $.scrollorama({
-  //     blocks: '.line'
-  // });
+  setTimeout(function() {
+    $('#dwnarrow').animate({opacity: 100}, 20000);
+  }, 4000);
+  var scrollorama = $.scrollorama({
+      blocks: '.line'
+  });
 });
