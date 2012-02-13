@@ -215,21 +215,116 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Derek Thurn
    ========================================================================== */
 
+body {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Cabin', sans-serif;
+}
 
+section {
+  margin-top: 500px;
+}
 
+div#line1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
 
+span.hi1 {
+  font-family: 'Arvo', serif;
+  font-size: 1.3em;
+}
 
+div#line2 {
+  font-size: 0.8em;
+}
 
+div#line3 {
+  font-size: 0.6em;
+}
 
+div.smaller {
+  font-size: 0.5em;
+}
 
+div.lefttriple {
+  width: 25%;
+  float: left;
+}
 
+div.midtriple {
+  width: 25%;
+  float: left;
+  padding-top: 100px;
+}
 
+div.righttriple {
+  width: 25%;
+  float: left;
+  padding-top: 200px;
+}
 
+section.triple {
+  width: 100%:
+  overflow: hidden;
+  font-size: 0.5em;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  color: #555;
+}
 
+.biglobster {
+  font-family: 'Lobster', cursive; 
+  font-size: 2em;
+}
 
+.biggerlobster {
+  font-family: 'Lobster', cursive; 
+  font-size: 3em;
+}
+
+.bigger {
+  font-size: 2em;
+}
+
+div.faintsmaller {
+  color: #555;
+  font-size: 0.5em;
+}
+
+div.leftfloat {
+  float: left;
+  width: 40%;
+}
+
+div.rightfloat {
+  float: right;
+  padding-top: 500px;
+  width: 40%;
+}
+
+section.double {
+  padding-bottom: 700px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+div.allan {
+  font-family: 'Allan', cursive;
+  font-size: 1.5em;
+}
+
+div#toblock {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+section#last {
+  margin-bottom: 300px;
+}
 
 
 
