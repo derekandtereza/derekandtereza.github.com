@@ -222,24 +222,34 @@ body {
   text-align: center;
   font-size: 3em;
   font-family: 'Cabin', sans-serif;
+  /* width: 1220px; */
+}
+
+.slide {
+  text-align: center;
+  width: 100%;
+}
+
+.slide div {
+  text-align: center;
 }
 
 section {
-  margin-top: 500px;
+  margin-top: 750px;
+}
+
+#metin span {
+  display: block;
+  float: left;
 }
 
 #dwnarrow {
   opacity: 0;
 }
 
-div#line1 {
+#title {
   font-family: 'Lobster', cursive;
   font-size: 3em;
-}
-
-span.hi1 {
-  font-family: 'Arvo', serif;
-  font-size: 1.3em;
 }
 
 div#line2 {
@@ -254,43 +264,23 @@ div.smaller {
   font-size: 0.5em;
 }
 
-div.lefttriple {
-  width: 25%;
-  float: left;
-}
-
-div.midtriple {
-  width: 25%;
-  float: left;
-  padding-top: 100px;
-}
-
-div.righttriple {
-  width: 25%;
-  float: left;
-  padding-top: 200px;
-}
-
-section.triple {
-  width: 100%:
-  overflow: hidden;
+table.triple {
   font-size: 0.5em;
-  padding-bottom: 200px;
-  padding-left: 20%;
   color: #555;
+  width: 100%;
 }
 
 #firstdiv {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .biglobster {
-  font-family: 'Lobster', cursive; 
+  font-family: 'Lobster', cursive;
   font-size: 2em;
 }
 
 .biggerlobster {
-  font-family: 'Lobster', cursive; 
+  font-family: 'Lobster', cursive;
   font-size: 3em;
 }
 
@@ -303,21 +293,13 @@ section.triple {
   font-size: 0.5em;
 }
 
-div.leftfloat {
+#saidyes span {
+  display: block;
   float: left;
-  width: 40%;
 }
 
-div.rightfloat {
-  float: right;
-  padding-top: 500px;
-  width: 40%;
-}
-
-section.double {
-  padding-bottom: 700px;
-  padding-left: 10%;
-  padding-right: 10%;
+table.double {
+  width: 100%;
 }
 
 div.allan {
@@ -330,8 +312,8 @@ div#toblock {
   margin-top: 100px;
 }
 
-section#last {
-  margin-bottom: 300px;
+#lasts {
+  padding-bottom: 500px;
 }
 
 
