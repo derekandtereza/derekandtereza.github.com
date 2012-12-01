@@ -3,7 +3,7 @@
 $(document).ready(function() {
   setTimeout(function() {
     $('#dwnarrow').animate({opacity: 0.25}, 1000);
-  }, 5000);
+  }, 3000);
   var scrollorama = $.scrollorama({
       blocks: '.slide'
   });
@@ -56,10 +56,12 @@ $(document).ready(function() {
   scrollorama.animate('#trip4',{delay: 700, duration: 300, property: 'opacity', start: 0});
   scrollorama.animate('#trip5',{delay: 900, duration: 300, property: 'opacity', start: 0});
   scrollorama.animate('#trip6',{delay: 1100, duration: 300, property: 'opacity', start: 0});
+  scrollorama.animate('#along',{delay: 700, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#greg',{delay: 750, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#janet',{delay: 850, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#fasika',{delay: 950, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#and',{delay: 1000, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#eva',{delay: 1050, duration: 300, property: 'zoom', start: 0});
   scrollorama.animate('#toblock',{delay: 750, duration: 600, property: 'rotate', start: 360});
+  scrollorama.animate('#invite',{delay: 800, duration: 300, property: 'opacity', start: 0});
 });

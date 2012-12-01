@@ -316,6 +316,12 @@ div#toblock {
   padding-bottom: 500px;
 }
 
+#disclaim {
+  color: pink;
+  padding-bottom: 500px;
+  font-size: 0.5em;
+}
+
 
 
 /* ==|== media queries ======================================================
